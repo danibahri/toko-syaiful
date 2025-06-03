@@ -342,7 +342,7 @@ const HomePage: React.FC = () => {
           Toko lengkap dengan kebutuhan sehari-hari dan kos nyaman untuk putra.
         </HeroSubtitle>
         <img
-          src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&h=600&fit=crop"
+          src="/img/toko.jpg"
           alt="Warung Syaiful"
           style={{ width: "100%", borderRadius: "15px", marginTop: "1rem" }}
         />
@@ -353,7 +353,7 @@ const HomePage: React.FC = () => {
           <StatLabel>Produk Tersedia</StatLabel>
         </StatCard>
         <StatCard>
-          <StatNumber>20+</StatNumber>
+          <StatNumber>8</StatNumber>
           <StatLabel>Kamar Kos</StatLabel>
         </StatCard>
         <StatCard>
@@ -406,9 +406,8 @@ const HomePage: React.FC = () => {
         <TestimonialGrid>
           <TestimonialCard>
             <TestimonialText>
-              "Warung Pak Syaiful selalu jadi andalan untuk belanja harian.
-              Harga terjangkau dan barang lengkap. Sambel pecelnya juga enak
-              banget!"
+              "Toko Pak Syaiful selalu jadi andalan untuk belanja harian. Harga
+              terjangkau dan barang lengkap. Sambel pecelnya juga enak banget!"
             </TestimonialText>
             <TestimonialAuthor>
               <div>
@@ -463,7 +462,7 @@ const HomePage: React.FC = () => {
         <OwnerContent>
           <OwnerImageContainer>
             <OwnerImage
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
+              src="/img/owner.jpg"
               alt="Pak Syaiful - Pemilik Warung & Kos"
             />
           </OwnerImageContainer>

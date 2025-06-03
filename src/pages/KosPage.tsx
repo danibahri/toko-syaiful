@@ -20,7 +20,7 @@ const HeroSection = styled.section`
       rgba(44, 62, 80, 0.8) 0%,
       rgba(52, 73, 94, 0.8) 100%
     ),
-    url("https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=1200&h=600&fit=crop")
+    url("/img/depan.jpg");
       center/cover;
   color: white;
   padding: 4rem 2rem;
@@ -242,12 +242,6 @@ const KosPage: React.FC = () => {
       filter: (room: any) => room.type === "single",
     },
     {
-      key: "ac",
-      label: "Ber-AC",
-      filter: (room: any) =>
-        room.facilities.some((f: string) => f.toLowerCase().includes("ac")),
-    },
-    {
       key: "available",
       label: "Tersedia",
       filter: (room: any) => room.available,
@@ -320,8 +314,8 @@ const KosPage: React.FC = () => {
       <HeroSection>
         <HeroTitle>🏠 Kos Putra Syaiful</HeroTitle>
         <HeroSubtitle>
-          Kos nyaman dan terjangkau untuk mahasiswa. Fasilitas lengkap, lokasi
-          strategis, dan pengelolaan profesional.
+          Kos nyaman dan terjangkau untuk siswa. Fasilitas lengkap, dan lokasi
+          strategis.
         </HeroSubtitle>
       </HeroSection>
 

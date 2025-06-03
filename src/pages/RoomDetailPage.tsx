@@ -47,7 +47,7 @@ const ImageGallery = styled.section`
 
 const MainImage = styled.img`
   width: 100%;
-  height: 400px;
+  height: 70%;
   object-fit: cover;
   border-radius: 15px;
   margin-bottom: 1rem;
@@ -545,37 +545,34 @@ const RoomDetailPage: React.FC = () => {
 
             <ContactButton>
               <Phone size={20} />
-              Hubungi via Telepon
+              +62 823-3388-5375
             </ContactButton>
             <ContactButton>
               <MessageCircle size={20} />
-              Chat WhatsApp
+              <a href="https://wa.me/6282333885375">Chat WhatsApp</a>
             </ContactButton>
           </PriceCard>{" "}
           <OwnerCard>
-            <OwnerPhoto
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
-              alt="Pak Syaiful"
-            />
+            <OwnerPhoto src="/img/owner.jpg" alt="Pak Syaiful" />
             <OwnerName>Pak Syaiful</OwnerName>
             <OwnerTitle>Pemilik Kos & Warung</OwnerTitle>
             <ContactButton>
               <Phone size={20} />
-              +62 812-3456-7890
+              +62 823-3388-5375
             </ContactButton>
             <ContactButton>
               <MessageCircle size={20} />
-              WhatsApp
+              <a href="https://wa.me/+6282333885375">Chat WhatsApp</a>
             </ContactButton>
           </OwnerCard>
           <LocationSection>
             <SectionTitle>Lokasi Kos</SectionTitle>
             <p style={{ color: "#7F8C8D", marginBottom: "1rem" }}>
-              Jl. Raya Madura No. 123, Bangkalan, Jawa Timur
+              Pangarangan, Kec. Kota Sumenep, Kabupaten Sumenep, Jawa Timur
             </p>
             <MapContainer>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.60803772315!2d112.6754!3d-7.0479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbf8381ac47f%3A0x3027a76e352be40!2sBangkalan%2C%20Bangkalan%20Regency%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1638360000000!5m2!1sen!2sid"
+                src="https://www.google.com/maps/embed?pb=!4v1748925481417!6m8!1m7!1sQg7LPjjGUIwFzNbfN8hv7A!2m2!1d-7.002965713376427!2d113.8719706320937!3f16.86473168603559!4f-9.218197362148786!5f0.7820865974627469"
                 title="Lokasi Kos Syaiful"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
